@@ -8,7 +8,7 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <div className='large-logo'>     
-                <img className='large-logo' src='nelson-logo-transparent.png' alt="Nelson Bakery" width="100%"/>
+                <img className='large-logo' src='transparent.png' alt="Nelson Bakery" width="100%"/>
             </div>
         <div >
             <video src="/Nelson-Baker-Vid-No-Logo.mp4" autoPlay loop muted/>

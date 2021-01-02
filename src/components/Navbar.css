@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(182, 216, 219) 0%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(90deg, aliceblue 0%,  rgb(207, 230, 250) 100%);
   height: 80px;
   display: flex;
   justify-content: flex-end;
@@ -21,6 +21,7 @@
 
 .navbar-logo {
   color: #fff;
+  height: 100%;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -55,7 +56,7 @@
 }
 
 .nav-links {
-  color: rgb(0, 35, 46);
+  color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -98,7 +99,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: linear-gradient(90deg, aliceblue 0%,  rgb(207, 230, 250) 100%);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -136,7 +137,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
   }
 

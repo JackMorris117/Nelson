@@ -5,42 +5,55 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <ul className='cards__items'>
-           
-           <CardItem
-               src='shori-image-danny.jpg'
-               text='lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
-               label='find out more'
-               path='/services'
-             />
-              <CardItem
-               src='shori-image-danny.jpg'
-               text='lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
-               label='find out more'
-               path='/services'
-             />
-           </ul>
+      
      
       
           <ul className='cards__items'>
             <CardItem
-              src='shori-background-test.png'
-              text='lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
+               src='tart3.jpg'
               label='find out more'
               path='/services'
             />
             <CardItem
-              src='shori_logo.png'
-              text='lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
+               src='tart.jpg'
               label='find out more'
               path='/products'
             />
             <CardItem
-              src='shori-background-test.png'
-              text='lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum'
-              label='find out more'
+               src='tart5.jpg'
+              label='find out morefind out morefind out morefind out morefind out morefind out morefind out morefind out more'
               path='/sign-up'
             />
+            
+            
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+               src='cake3.jpg'
+              label='find out more'
+              path='/services'
+            />
+            <CardItem
+               src='cake4.jpg'
+              label='find out more'
+              path='/products'
+            />
+            <CardItem
+               src='cake5.jpg'
+              label='find out morefind out morefind out morefind out morefind out morefind out morefind out morefind out more'
+              path='/sign-up'
+            />
+            <CardItem
+               src='cake6.jpg'
+              label='find out morefind out morefind out morefind out morefind out morefind out morefind out morefind out more'
+              path='/sign-up'
+            />
+            <CardItem
+               src='cake6.jpg'
+              label='find out morefind out morefind out morefind out morefind out morefind out morefind out morefind out more'
+              path='/sign-up'
+            />
+            
           </ul>
         </div>
 
