@@ -1,23 +1,28 @@
 import React from 'react'
 import '../../App.css'
+import GallerySection from '../GallerySection'
 
 
 function Gallery () {
 
     return (
         <>
+            <GallerySection/>
+
             <div className="gallery__container">
             <div className="gallery__items">
-                <img src='cake1.jpg' alt="cake" width="50%"/>
-                <img src='cake2.jpg' alt="cake2" width="50%"/>
+                <img src='desert2.jpg' alt="cake" width="100%"  />
+                <img src='cupcake3.jpg' alt="cake2" width="100%"  />
+                <img src='tart6.jpg' alt="cake3"  width="100%"  />
+
             </div>
             <div className="gallery__items">
-                <img src='cake3.jpg' alt="cake3" width="50%"/>
-                <img src='cake4.jpg' alt="cake4" width="50%"/>
+                <img src='cake3.jpg' alt="cake3" width="100%"  />
+                <img src='cake4.jpg' alt="cake4" width="100%"  />
             </div>
             <div className="gallery__items">
-                <img src='cake5.jpg' alt="cake5" width="50%"/>
-                <img src='cake6.jpg' alt="cake6" width="50%"/>
+                <img src='cake5.jpg' alt="cake5" width="100%"  />
+                <img src='cake6.jpg' alt="cake6" width="100%"  />
             </div>
 
             </div>

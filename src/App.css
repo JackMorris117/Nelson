@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  
 }
 
 .gallery__items {
@@ -23,6 +24,8 @@
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  width: 25%;
+  height: 25%;
 }
 .gallery__container {
   margin-top: 15px;

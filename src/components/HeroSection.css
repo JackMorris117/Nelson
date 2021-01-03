@@ -3,7 +3,8 @@ video {
     width: 100%;
     height: 100%;
     z-index: -1;
-
+    outline:10px solid rgb(245, 248, 252);
+    outline-offset: -2rem;
 }
 .large-logo {
     object-fit: contain;
