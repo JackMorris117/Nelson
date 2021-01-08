@@ -1,0 +1,52 @@
+.contact_section {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.781);
+  }
+  
+  h1 {
+    text-align: center;
+    line-height: 90px;
+    padding: 2rem;
+
+  }
+  
+  .contact_section__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+  }
+  
+  .contact_section__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .contact_section__items {
+    margin-bottom: 24px;
+    padding: 10px;
+  }
+  
+  .contact_section__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+  .anni-ervins{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline:10px solid rgb(245, 248, 252);
+    outline-offset: -2rem;
+
+  }
+
+  

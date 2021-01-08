@@ -35,18 +35,17 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact Info</Link>
-            <Link to='/'>Location</Link>
-            <Link to='/'>Orders</Link>
+            <Link to='/contact'>Contact Info</Link>
+            <Link to='/contact'>Orders</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
    
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Twitter</Link>
+            <a href="https://www.instagram.com/nelsonbakery/">Instagram</a>
+            <a href="https://www.facebook.com/Nelsoncakesforyou/">Facebook</a>
+            <a href="mailto:nelsoncakesforyou@gmail.com">Email</a>
           </div>
         </div>
       </div>
@@ -54,37 +53,23 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              Nelson Bakery
+            <img src='/nelson-logo-transparent-b-w.png' alt="logo" height={200}/>
+
             </Link>
           </div>
           <small className='website-rights'>Nelson Bakery © 2020</small>
           <div className='social-icons'>
-            <Link
-              className='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
+            <a  href="https://www.facebook.com/Nelsoncakesforyou/" className='social-icon-link facebook'>
               <i className='fab fa-facebook-f' />
-            </Link>
-            <Link
-              className='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
+            </a>
+ 
+            <a  href="https://www.instagram.com/nelsonbakery/" className='social-icon-link instagram'>
               <i className='fab fa-instagram' />
-            </Link>
-           
+            </a>
          
-            <Link
-              className='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i className='fab fa-twitter' />
-            </Link>
+            <a  href="mailto:nelsoncakesforyou@gmail.com" className='social-icon-link instagram'>
+              <i className='far fa-envelope' />
+            </a>
 
           </div>
         </div>

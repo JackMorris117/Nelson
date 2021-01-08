@@ -32,7 +32,7 @@ function Navbar() {
           <div className="nav-item">
 
           <a href="/">
-            <img className='navbar-logo' src='/nelson-logo-transparent.png' alt="logo" height={100} onClick={closeMobileMenu}/>
+            <img className='navbar-logo' src='/nelson-logo-transparent-filled.png' alt="logo" height={100} onClick={closeMobileMenu}/>
             </a>
             </div>
 
