@@ -31,6 +31,7 @@ const ImageSlider = ({slides}) => {
 )}
 
                 </div>
+              
              
             )
             
