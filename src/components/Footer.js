@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Sign Up to our newsletter to keep updated!
+          Coming Soon! Newsletter to keep updated!
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Follow us on socials!
         </p>
         <div className='input-areas'>
           <form>
@@ -27,19 +27,13 @@ function Footer() {
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/about-us'>Who are we?</Link>
-            <Link to='/'>Testimonials</Link>
-          </div>
+        
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
+            <Link to='/menu'>How it works</Link>
             <Link to='/contact'>Contact Info</Link>
             <Link to='/contact'>Orders</Link>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
    
           <div className='footer-link-items'>
             <h2>Social Media</h2>
@@ -57,7 +51,12 @@ function Footer() {
 
             </Link>
           </div>
+          
+          <small className='website-rights'>Photo credits: <br></br>allyouneedislove<br></br>photography</small>
+          
           <small className='website-rights'>Nelson Bakery © 2020</small>
+          <small className='website-rights'>Site credits: <br></br>Jack Morris</small>
+
           <div className='social-icons'>
             <a  href="https://www.facebook.com/Nelsoncakesforyou/" className='social-icon-link facebook'>
               <i className='fab fa-facebook-f' />

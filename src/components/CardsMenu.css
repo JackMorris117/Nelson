@@ -1,0 +1,246 @@
+
+h1 {
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+
+
+}
+h2 {
+  text-align: center;
+  line-height: 30px;
+  font-size: 28px;
+  
+
+}
+p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  
+}
+
+.menu_section__container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-bottom: 30px;
+  
+
+}
+.menu_section__wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  width: 65%;
+  background-color: rgba(248, 252, 255, 0.945);
+  outline:5px solid rgb(255, 255, 255);
+  
+
+}
+.anni-ervins-box{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  z-index: 1;
+  padding-bottom: 20px;
+
+
+}
+
+@media only screen and (min-width: 999px){
+.menu_section__items {
+  position: absolute;
+  width: 40%;
+  left: 5%;
+  top: 10%;
+
+  background-color: rgba(248, 252, 255, 0.945);
+  padding: 30px;
+  outline:5px solid rgb(255, 255, 255);
+  outline-offset: -2rem;
+  
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.055), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+
+}
+
+
+}
+@media only screen and (max-width: 1000px){
+.menu_section__items {
+  position: relative;
+  left: 5%;
+  
+  padding: 2rem;
+  outline:5px solid rgb(255, 255, 255);
+  outline-offset: -20px;
+  background-color: rgba(248, 252, 255, 0.945);
+  width: 90%;
+
+}
+.menu_section_2__items {
+  position: relative;
+  left: 5%;
+  
+  padding: 2rem;
+  background-color: rgba(248, 252, 255, 0.945);
+  width: 90%;
+
+}
+}
+.social-icon-link-piccy{
+  color: black;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ------------------------------------------- */
+.cards__menu {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+  
+}
+
+.cards__menu__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.cards__menu__wrapper {
+  position: relative;
+  display: inline-block;
+  position: relative;
+  margin: 50px 0 45px;
+  
+}
+
+.cards__menu__items {
+  margin-bottom: 24px;
+  
+
+}
+
+.cards__menu__item {
+  position: relative;
+  display: flex;
+  flex: 1;
+  margin: 5px;
+  z-index: 0;
+  height: 300px;
+
+}
+
+
+.cards__menu__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 150%;
+  overflow: hidden;
+}
+
+.fade-img {
+  animation-name: fade-img;
+  animation-duration: 2s;
+}
+
+.cards__menu__item__pic-wrap::after {
+  content: attr(data-category);
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 155px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  text-align: center;
+}
+
+
+
+.cards__menu__item__img:hover {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  
+}
+
+.cards__menu__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  max-height: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+  outline:3px solid rgb(255, 255, 255);
+  outline-offset: -1rem;
+  -webkit-filter: brightness(85%);
+  
+}
+
+.cards__menu__item__img:hover {
+  transform: scale(1.02);
+}
+
+
+@media only screen and (min-width: 980px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .cards__menu__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .cards__menu__item {
+    margin-bottom: 2rem;
+  }
+}
+

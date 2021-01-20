@@ -1,71 +1,98 @@
-.contact_section {
 
-  }
+
+h1 {
+  text-align: center;
+  line-height: 70px;
+  font-size: 30px;
+
+
+}
+h2 {
+  text-align: center;
+  line-height: 30px;
+  font-size: 22px;
   
-  h1 {
-    text-align: center;
-    line-height: 70px;
-    font-size: 30px;
 
+}
+p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
 
-  }
-  h2 {
-    text-align: center;
-    line-height: 30px;
-    font-size: 22px;
-    
-
-  }
-  p {
-    padding-bottom: 20px;
-    font-size: 18px;
-  }
+.contact_section__container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
   
-  .contact_section__container {
-    position: relative;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    
-    
-  }
   
-  @media only screen and (min-width: 991px){
-  .contact_section__items {
-    position: absolute;
-    width: 65%;
-    top: 45%;
-    left: 17%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(240, 248, 255, 0.863);
-    padding: 2rem;
-    outline:5px solid rgb(245, 248, 252);
-    outline-offset: -2rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
-  }
+@media only screen and (min-width: 968px){
+.contact_section__items {
+  position: absolute;
+  width: 60%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(240, 248, 255, 0.863);
+  padding: 2rem;
+  outline:5px solid rgb(245, 248, 252);
+  outline-offset: -2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
+       animation: fadein 2s;
+
+}
 }
 @media only screen and (max-width: 991px){
-  .contact_section__items {
+.contact_section__items {
 
-    padding: 2rem;
-    outline:5px solid rgb(255, 255, 255);
-    outline-offset: -20px;
+  padding: 2rem;
+  outline:5px solid rgb(255, 255, 255);
+  outline-offset: -20px;
 
-  }
 }
-  .contact_section__item {
-    display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
-  }
-  .anni-ervins{
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: flex;
-    z-index: 1;
+}
+.contact_section__item {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+.anni-ervins{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  z-index: 1;
 
-  }
- 
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
