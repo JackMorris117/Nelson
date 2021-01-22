@@ -126,6 +126,13 @@ h1 {
   .cards__items {
     display: flex;
   }
+  
+}
+
+@media only screen and (max-width: 560px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
   .cards__item__img {
     position: absolute;
     top: 0;
@@ -143,11 +150,5 @@ h1 {
     outline-offset: -1rem;
     -webkit-filter: brightness(70%);
     
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  .cards__item {
-    margin-bottom: 2rem;
   }
 }
