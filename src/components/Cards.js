@@ -11,19 +11,19 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
                src='tart3.jpg'
-              label='Cakes'
-              path='/services'
+              label='Menu'
+              path='/menu'
             />
           
             <CardItem
                src='tart.jpg'
-              label='Us'
-              path='/products'
+              label='Orders'
+              path='/contact'
             />
             <CardItem
                src='tart5.jpg'
-              label='Orders'
-              path='/sign-up'
+              label='Gallery'
+              path='/gallery'
             />
             
             
