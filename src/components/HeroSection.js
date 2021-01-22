@@ -6,6 +6,7 @@ import './HeroSection.css'
 
 function HeroSection() {
     return (
+        
         <div className='hero-container'>
             <div className='large-logo'>     
                 <img className='large-logo' src='transparent.png' alt="Nelson Bakery" width="100%"/>
