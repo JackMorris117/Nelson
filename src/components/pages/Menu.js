@@ -31,14 +31,16 @@ function Menu () {
 
                 </div>
             </div>
+   
             <CardsMenu/>
             <div className='menu_section'>
                 
                 <div className='menu_section__container'>
+                    
 
                     <div className='menu_section__wrapper'>
                         <h2>Menu</h2>
-                        <p>Our menu is constantly changing and evolving, above are some of our staple products which you may order as they are or you may customize them in anyway you wish. </p>
+                        <p>Our Menu is constantly changing and evolving, above are some of our staple products which you may order (decorations and style may vary). If you would to customize any of our cakes please don't hesitate to get in touch! </p>
                         <p>-----------</p>
 
                         <h2>Bespoke Cake Pricing</h2>
@@ -52,9 +54,13 @@ function Menu () {
                           <i className='far fa-envelope' />
                         </a>
                     </div>
+                    <div className='menu_section_disclaimer'>
+                        <p>All sizing/decorations may vary</p>
 
+                    </div>
                    
                 </div>
+                
             </div>
             <Cards />
 

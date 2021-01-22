@@ -47,6 +47,27 @@ function CardsMenu() {
             />
             
           </ul>
+          <ul className='cards__menu__items'>
+
+            
+            <CardMenuItem
+               src='cake-bespoke1.jpg'
+               label='6" Lemon and Raspberry Cake £35'
+              
+            />
+            <CardMenuItem
+               src='cake-bespoke3.jpg'
+               label='6" Vanilla and Strawberry Cake £35'
+              
+            />
+             <CardMenuItem
+               src='cake-bespoke2.jpg'
+               label='8" Chocolate Cake £50'
+              
+            />
+      
+            
+          </ul>
         
           
         </div>
