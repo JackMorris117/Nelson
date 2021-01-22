@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Nelson/static/css/main.dbdb4d6d.chunk.css",
+    "main.js": "/Nelson/static/js/main.f63f576d.chunk.js",
+    "main.js.map": "/Nelson/static/js/main.f63f576d.chunk.js.map",
+    "runtime-main.js": "/Nelson/static/js/runtime-main.0524feb9.js",
+    "runtime-main.js.map": "/Nelson/static/js/runtime-main.0524feb9.js.map",
+    "static/js/2.82a16083.chunk.js": "/Nelson/static/js/2.82a16083.chunk.js",
+    "static/js/2.82a16083.chunk.js.map": "/Nelson/static/js/2.82a16083.chunk.js.map",
+    "static/js/3.8ab1286f.chunk.js": "/Nelson/static/js/3.8ab1286f.chunk.js",
+    "static/js/3.8ab1286f.chunk.js.map": "/Nelson/static/js/3.8ab1286f.chunk.js.map",
+    "index.html": "/Nelson/index.html",
+    "static/css/main.dbdb4d6d.chunk.css.map": "/Nelson/static/css/main.dbdb4d6d.chunk.css.map",
+    "static/js/2.82a16083.chunk.js.LICENSE.txt": "/Nelson/static/js/2.82a16083.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0524feb9.js",
+    "static/js/2.82a16083.chunk.js",
+    "static/css/main.dbdb4d6d.chunk.css",
+    "static/js/main.f63f576d.chunk.js"
+  ]
+}
