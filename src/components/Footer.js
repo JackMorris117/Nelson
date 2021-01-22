@@ -51,11 +51,14 @@ function Footer() {
 
             </Link>
           </div>
-          
-          <small className='website-rights'>Photo credits: <br></br>allyouneedislove<br></br>photography</small>
-          
+          <a  href="https://www.allyouneedislovephotography.co.uk/" >
+          <p className='website-rights'>Photo credits: <br></br>allyouneedislove<br></br>photography</p>
+          </a>
+
           <small className='website-rights'>Nelson Bakery © 2020</small>
-          <small className='website-rights'>Site credits: <br></br>Jack Morris</small>
+          <a  href="https://www.linkedin.com/in/jack-v-morris/" >
+          <p className='website-rights'>Site credits: <br></br>Jack Morris</p>
+          </a>
 
           <div className='social-icons'>
             <a  href="https://www.facebook.com/Nelsoncakesforyou/" className='social-icon-link facebook'>
