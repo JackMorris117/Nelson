@@ -12,7 +12,7 @@ function HeroSection() {
                 <img className='large-logo' src='nelson-logo-transparent.png' alt="Nelson Bakery" width="100%"/>
             </div>
         <div >
-            <video src="/Nelson-Baker-Vid.mp4" autoPlay loop muted playsInLine/>
+            <video src="/Nelson-Baker-Vid.mp4" autoPlay loop muted playsInline/>
           
         </div>
         </div>
