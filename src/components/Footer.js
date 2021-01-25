@@ -52,8 +52,12 @@ function Footer() {
             </Link>
           </div>
           <a  href="https://www.allyouneedislovephotography.co.uk/" >
-          <p className='website-rights'>Photo credits: <br></br>allyouneedislove<br></br>photography</p>
+          <p className='website-rights'>Allyouneedislove<br></br>photography</p>
           </a>
+          <a  href="https://larafrostphotography.com/" >
+          <p className='website-rights'>Lara Frost<br></br>photography</p>
+          </a>
+
 
           <small className='website-rights'>Nelson Bakery © 2020</small>
           <a  href="https://www.linkedin.com/in/jack-v-morris/" >
