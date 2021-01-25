@@ -52,16 +52,16 @@ function Footer() {
             </Link>
           </div>
           <a  href="https://www.allyouneedislovephotography.co.uk/" >
-          <p className='website-rights'>Allyouneedislove<br></br>photography</p>
+          <p className='website-rights'>Allyouneedislove<br></br>Photography</p>
           </a>
           <a  href="https://larafrostphotography.com/" >
-          <p className='website-rights'>Lara Frost<br></br>photography</p>
+          <p className='website-rights'>Lara Frost<br></br>Photography</p>
           </a>
 
 
           <small className='website-rights'>Nelson Bakery © 2020</small>
           <a  href="https://www.linkedin.com/in/jack-v-morris/" >
-          <p className='website-rights'>Site credits: <br></br>Jack Morris</p>
+          <p className='website-rights'>Jack Morris<br></br> Site</p>
           </a>
 
           <div className='social-icons'>

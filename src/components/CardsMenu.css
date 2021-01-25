@@ -15,6 +15,9 @@ h2 {
 }
 p {
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
   font-size:max(1em, min(4em, calc(30vw * 4 / 75)));
   
 }
