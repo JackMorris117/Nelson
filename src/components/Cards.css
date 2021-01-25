@@ -75,7 +75,7 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size:max(1em, min(4em, calc(50vw * 4 / 75)));
+  font-size:max(2em, min(4em, calc(50vw * 4 / 75)));
 }
 
 
