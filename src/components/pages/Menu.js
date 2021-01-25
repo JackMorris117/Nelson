@@ -2,6 +2,9 @@ import React from 'react'
 import '../../App.css'
 import Cards from '../Cards'
 import CardsMenu from '../CardsMenu'
+import { HashLink } from 'react-router-hash-link';
+
+
 
 function Menu () {
 
@@ -26,19 +29,24 @@ function Menu () {
                             It is important to us that your cake be exactly what you want. Therefore, we limit the number of orders we accept to give each cake the attention it deserves.
                             
                         </p>
+                        <HashLink smooth to='/menu#details' > Click for more details! </HashLink>
+
                        </div>
-                       
+
 
                 </div>
             </div>
    
-            <CardsMenu/>
-            <div className='menu_section'>
+            <CardsMenu />
+           <div className="breaker" id="details">
+               <h1><br></br><br></br><br></br></h1>
+           </div>
+            <div className='menu_section' id="details" >
                 
-                <div className='menu_section__container'>
+                <div className='menu_section__container' >
                     
 
-                    <div className='menu_section__wrapper'>
+                    <div className='menu_section__wrapper' >
                         <h2>Menu</h2>
                         <p>Our Menu is constantly changing and evolving, above are some of our staple products which you may order (decorations and style may vary). If you would like to customize any of our cakes please don't hesitate to get in touch! </p>
                         <p>-----------</p>
