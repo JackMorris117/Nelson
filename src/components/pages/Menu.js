@@ -39,7 +39,7 @@ function Menu () {
    
             <CardsMenu />
            <div className="breaker" id="details">
-               <h1><br></br><br></br><br></br></h1>
+               <h1><br></br></h1>
            </div>
             <div className='menu_section' id="details" >
                 

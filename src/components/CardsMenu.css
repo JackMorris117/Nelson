@@ -18,9 +18,11 @@ p {
   font-size:max(1em, min(4em, calc(30vw * 4 / 75)));
   
 }
+
 .breaker{
   display: flex;
- 
+  padding-bottom: 25px;
+
   
 
 }
