@@ -10,7 +10,7 @@ function Gallery () {
         <>
                         
             <ImageSlider slides={SliderData}/>
-        <>
+        {/* <>
 
             <div className="gallery__container">
             <div className="gallery__items">
@@ -31,7 +31,7 @@ function Gallery () {
             </div>
 
            
-        </>
+        </> */}
 
             <Cards/>
 
