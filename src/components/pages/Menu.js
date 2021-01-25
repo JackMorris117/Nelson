@@ -48,11 +48,16 @@ function Menu () {
                         <p>-----------</p>
 
                         <h2>Ordering & Delivery</h2>
-                        <p> We kindly request 48 hours notice and that orders be placed by 12pm on the day of ordering. This can be done in person, by phone, social media or email.  If you need your cake sooner, please call us! 
+                        <p> We kindly request a 48 hours notice and that orders be placed by 12pm on the day of ordering. This can be done in person, by phone, social media or email. We also require on smaller cakes, a minimum order of at least 6 individual cakes. If you need your cake sooner, please call us! 
                             Special delivery options need to be discussed in advance.</p>
                         <a  href="mailto:nelsoncakesforyou@gmail.com" className='social-icon-link-piccy'>
                           <i className='far fa-envelope' />
                         </a>
+                        <p>-----------</p>
+
+                        <h2>Food Allergies & Intolerances</h2>
+                        <p>If you have any food allergy or special dietry requirements please inform us before you place your order.</p>
+
                     </div>
                     <div className='menu_section_disclaimer'>
                         <p>All sizing/decorations may vary</p>
