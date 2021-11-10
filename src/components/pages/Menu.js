@@ -13,7 +13,7 @@ function Menu () {
             <div className='menu_section'>
                 
                 <div className='menu_section__container'>
-                <img className='anni-ervins-box'src='anni-ervins-box.jpg' alt="anni-ervins"/>
+                <img className='anni-ervins-box'src='menuback.jpg' alt="anni-ervins"/>
 
                  
                     <div className="menu_section__items">
@@ -48,6 +48,8 @@ function Menu () {
 
                     <div className='menu_section__wrapper' >
                         <h2>Menu</h2>
+                        <img className='anni-ervins'src='menu.png' alt="anni-ervins"/>
+                        <p>-----------</p>
                         <p>Our Menu is constantly changing and evolving, above are some of our staple products which you may order (decorations and style may vary). If you would like to customize any of our cakes please don't hesitate to get in touch! </p>
                         <p>-----------</p>
 
@@ -64,7 +66,7 @@ function Menu () {
                         <p>-----------</p>
 
                         <h2>Food Allergies & Intolerances</h2>
-                        <p>If you have any food allergy or special dietry requirements please inform us before you place your order.</p>
+                        <p>Unfortunately we can not guarantee that all food is 100% allergen free. We bake all of our cakes in the same area so there might be a risk of cross contamination, particularly nuts and gluten. If yourself or anyone else in your party has any allergies please inform us. Will endeavour to facilitate for all needs.</p>
 
                     </div>
                     <div className='menu_section_disclaimer'>

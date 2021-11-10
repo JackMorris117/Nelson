@@ -1,4 +1,53 @@
 export const SliderData = [
+ 
+    {
+        image:'IMG_2890.jpg'
+    },
+    {
+        image:'IMG_2897.jpg'
+    },
+    {
+        image:'IMG_2917.jpg'
+    },
+    {
+        image:'IMG_2926.jpg'
+    },
+    {
+        image:'IMG_2937.jpg'
+    },
+    {
+        image:'IMG_2962.jpg'
+    },
+    {
+        image:'IMG_2973.jpg'
+    },
+    {
+        image:'IMG_2975.jpg'
+    },   
+    {
+        image:'image0.jpeg'
+    },
+    {
+        image:'IMG_2990.jpg'
+    },
+    {
+        image:'IMG_2991.jpg'
+    },
+    {
+        image:'IMG_2997.jpg'
+    },
+    {
+        image:'IMG_3012.jpg'
+    },
+    {
+        image:'cake2nd.jpg'
+    },
+    {
+        image:'cake1st.png'
+    },
+    {
+        image:'IMG_3053.jpg'
+    },
     {
         image:'desert2.jpg'
     },
