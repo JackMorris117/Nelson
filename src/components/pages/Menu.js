@@ -37,7 +37,7 @@ function Menu () {
                 </div>
             </div>
    
-            <CardsMenu />
+            
            <div className="breaker" id="details">
                <h1><br></br></h1>
            </div>
@@ -48,7 +48,16 @@ function Menu () {
 
                     <div className='menu_section__wrapper' >
                         <h2>Menu</h2>
-                        <img className='anni-ervins'src='menu.png' alt="anni-ervins"/>
+                        <p>Lemon and Raspberry / Lemon and Blueberry from £35</p>
+                        <p>Red Velvet / Peach White Velvet from £40</p>
+                        <p>Chocolate and Mixed Berry / Vanilla and Mixed Berry from £35</p>
+                        <p>Caramel from £35</p>
+                        <p>Orange, Cardamom and Pistachio from £35</p>
+                        <p>Black Forest Gateaux from £35</p>
+                        <p>Lemon, Elderflower and Blackcurrant from £35</p>
+                        <p>Almond and Raspberry from £40</p>
+                        <p>Chocolate / Vanilla from £35</p>
+                        Gluten free and Vegan options available
                         <p>-----------</p>
                         <p>Our Menu is constantly changing and evolving, above are some of our staple products which you may order (decorations and style may vary). If you would like to customize any of our cakes please don't hesitate to get in touch! </p>
                         <p>-----------</p>
